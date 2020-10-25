@@ -10,9 +10,6 @@
     <title>RWS INFORMATION SYSTEMS</title>
 
     <style>
-        /* body {
-            background-color: antiquewhite;
-        } */
         .main {
             background-color: rgb(247, 247, 247) !important;
         }
@@ -23,67 +20,81 @@
         }
 
         h1 {
-            font-size: 40px;
+            font-size: 85px;
+        }
+
+        a {
+            text-decoration: none !important;
+            font-size: 55px;
+            font-weight: 500;
         }
 
         button a {
-            text-decoration: none !important;
-            font-size: 30px;
-        }
-
-        .product-button {
-            background-image: linear-gradient(to bottom, rgb(102, 102, 238), rgb(43, 41, 41), rgb(102, 102, 238)) !important;
+            font-size: 35px;
         }
 
         .price {
-            font-size: 20px;
+            font-size: 28px;
             font-weight: bold;
         }
 
         .intro {
-            font-size: 25px;
+            font-weight: 500;
+            font-size: 21px;
         }
 
-        /* .container {
-            border: 1px solid blue;
-        } */
+        @media (max-width: 550px) {
+            h1 {
+                font-size: 42px;
+            }
+
+            a {
+                font-size: 35px;
+            }
+
+            .intro {
+                font-size: 16px;
+            }
+
+            button a {
+                font-size: 20px;
+            }
+        }
     </style>
 </head>
 
 <body>
-    <div class="main container mx-auto text-center bg-white col-md-8 col-sm-12 offset-md-3 py-5 shadow-lg">
-        <h1 class="">RWS Informaton Systems</h1>
+    <div class="main container mx-auto text-center col-lg-12 col-md-12 col-sm-12 py-5">
+        <h1 class="">RWS Information Systems</h1>
         <p class="mb-5">est. 1991</p>
 
-        <div class="product container shadow py-3 my-5">
-            <button class="product-button btn my-4 col-lg-7 col-md-9 col-sm-10 col-10"><a class="text-white" target="_blank"
-                    href="https://www.inventory-control-spreadsheet.com/">Inventory Magic</a></button>
-            <p class="price">($99.95)</p>
-            <p class="intro">Inventory Control Made Simple</p>
+        <div class="product container shadow py-4 my-5">
+            <span class="intro">Inventory Control Made Simple</span><br>
+            <a href="https://www.inventory-control-spreadsheet.com/">Inventory Magic</a>
+            <p class="price mb-0">$99.95</p>
         </div>
-        <div class="product container shadow py-3 my-5">
-            <button class="product-button btn my-4 col-lg-7 col-md-9 col-sm-10 col-10"><a class="text-white" target="_blank"
-                    href="https://time-tracker.rwsinfo.com/">Time Tracker</a></button>
-            <p class="price">($49.95)</p>
-            <p class="intro">When Every Minute Counts</p>
+        <div class="product container shadow py-4 my-5">
+            <span class="intro">When Every Minute Counts</span><br>
+            <a href="timetracker.html">Time Tracker</a>
+            <p class="price mb-0">$49.95</p>
         </div>
-        <div class="product container shadow-lg py-3 my-5">
-            <button class="product-button btn my-4 col-lg-7 col-md-9 col-sm-10 col-10"><a class="text-white" target="_blank"
-                    href="https://cash-counter-magic.rwsinfo.com/"> Cash Counter</a></button>
-            <p class="price">(Free)</p>
-            <p class="intro">Works in any Browser</p>
+        <div class="product container shadow py-4 my-5">
+            <span class="intro">Stop The Madness</span><br>
+            <a href="cashcounter.html">Cash Counter</a>
+            <p class="price mb-0">Free</p>
         </div>
-        <h1 class="pt-3"><a href="https://we-can-work-it-out.org/">Yes! We Can Work It Out</a></h1>
-        <p class="mb-5">
-            Financial Opportunity for People Affected by COVID-19 <br>
-            ABSOLUTELY NO FINANCIAL INVESTMENT REQUIRED!
-        </p>
+        <div class="product container shadow py-4 my-5">
+            <span class="intro">Financial Opportunity for People Affected by COVID-19</span><br>
+            <a href="https://we-can-work-it-out.org/">We-Can-Work-It-Out.org</a>
+            <p class="intro mb-0">ABSOLUTELY NO FINANCIAL INVESTMENT REQUIRED!
+            </p>
+        </div>
         <div>
-            <h2>Share With Others...</h2>
             <button class="btn btn-primary my-3">
-                <a class="text-white" href="mailto:?subject=I found this website that might interest you&body=I thought of you when I visited this website: https://www.rwsinfo.com"
-                    target="_blank"><i class="fa fa-envelope pr-3" ></i>Suggest this site to a friend</a>
-                </button>
+                <a class="text-white"
+                    href="mailto: ?subject=I found this website that might interest you&body=I thought of you when I visited this website: https://www.rwsinfo.com"
+                    target="_blank"><i class="fa fa-envelope pr-3"></i>Suggest this site to a friend</a>
+            </button>
         </div>
 
     </div>
